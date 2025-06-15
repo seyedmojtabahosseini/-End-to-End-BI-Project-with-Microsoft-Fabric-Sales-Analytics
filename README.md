@@ -62,7 +62,7 @@ Fabric Pipeline (Automation & Scheduling)
 - **Power BI Desktop** was chosen for better layout, interaction design, and publishing flexibility.
 - A **Pipeline** was created to run Notebook → Dataflow → Semantic Model refresh automatically.
 
-![EXEC Dashboard](./images/EXEC%20Dashboard.png)
+![EXEC Dashboard](./Images/EXEC%20Dashboard.png)
 
 ---
 
@@ -72,13 +72,13 @@ Here are a few sample views from the Power BI report:
 
 ### 🔹 Product Details
 
-![Products Details](./images/Products%20Details.png)
+![Products Details](./Images/Products%20Details.png)
 
 ---
 
 ### 🔹 Customer Details
 
-![Customers Details](./images/Customers%20Details.png)
+![Customers Details](./Images/Customers%20Details.png)
 
 ---
 
