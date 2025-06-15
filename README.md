@@ -1,3 +1,4 @@
+
 # End-to-End-BI-Project-with-Microsoft-Fabric-Sales-Analytics
 
 This repository showcases a complete Business Intelligence (BI) project built using **Microsoft Fabric**, starting from raw data ingestion to building interactive Power BI reports. The project leverages modern data architecture, including Lakehouse, Dataflows, Notebooks, Semantic Modeling, and Pipelines for automation.
@@ -53,6 +54,43 @@ Fabric Pipeline (Automation & Scheduling)
 
 ---
 
+## ✅ Key Highlights
+
+- **Dataflow Gen2** was used to append multiple yearly sales datasets and create `Fact_Sales`.
+- A rich **Dim_Date** table was generated with fields like Month Start, Day of Week, etc.
+- DAX Measures such as `Total Sales`, `Order Count`, and `Average Order Value` were defined in the Semantic Model.
+- **Power BI Desktop** was chosen for better layout, interaction design, and publishing flexibility.
+- A **Pipeline** was created to run Notebook → Dataflow → Semantic Model refresh automatically.
+
+![EXEC Dashboard](./images/EXEC%20Dashboard.png)
+
+---
+
+## 📊 Sample Insights
+
+Here are a few sample views from the Power BI report:
+
+### 🔹 Product Details
+
+![Products Details](./images/Products%20Details.png)
+
+---
+
+### 🔹 Customer Details
+
+![Customers Details](./images/Customers%20Details.png)
+
+---
+
+## 🧠 What I Learned
+
+- Practical use of Microsoft Fabric for modern BI pipelines  
+- Effective structuring of Lakehouse data  
+- Hands-on experience with DAX and semantic modeling  
+- Scheduling and automation using Pipelines
+
+---
+
 ## 📂 Folder Structure
 
 ```
@@ -81,29 +119,9 @@ fabric-sales-bi-project/
 
 ---
 
-## ✅ Key Highlights
-
-- **Dataflow Gen2** was used to append multiple yearly sales datasets and create `Fact_Sales`.
-- A rich **Dim_Date** table was generated with fields like Month Start, Day of Week, etc.
-- DAX Measures such as `Total Sales`, `Order Count`, and `Average Order Value` were defined in the Semantic Model.
-- **Power BI Desktop** was chosen for better layout, interaction design, and publishing flexibility.
-- A **Pipeline** was created to run Notebook → Dataflow → Semantic Model refresh automatically.
-
----
-
-## 🧠 What I Learned
-
-- Practical use of Microsoft Fabric for modern BI pipelines  
-- Effective structuring of Lakehouse data  
-- Hands-on experience with DAX and semantic modeling  
-- Scheduling and automation using Pipelines
-
----
-
-
 ## 📬 Contact
 
 Created by **Seyed Mojtaba Hosseini**  
 [LinkedIn](https://www.linkedin.com/in/mojtaba-hosseini-0b38318b/) | [Email](mailto:hosseiny.mj69@yahoo.com)
 
-
+؟
